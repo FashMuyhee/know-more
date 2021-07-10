@@ -3,7 +3,7 @@
  * Answer Options Components
  */
 import "./index.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const AnswerOption = ({ data = [], isSelected = false, isScored = false }) => {
   const alphabet = ["a", "b", "c", "d"];
